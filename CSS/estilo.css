@@ -1,0 +1,119 @@
+/*Limpar formatação padrão*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    background: yellowgreen;
+}
+
+#navegacao {
+    background: blue;
+    border-bottom: 1px solid #f3f3f3;
+    height: 45px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#area {
+    width: 720px;
+    margin: 0 auto;
+}
+
+#area-principal {
+    width: 720px;
+    margin: 55px auto 10px auto;
+}
+
+#logo {
+    float: left;
+}
+
+#menu {
+    float: right;
+    padding: 10px 0;
+}
+
+#postagem {
+    background: yellowgreen;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: white;
+}
+
+
+/*******************************************************
+******************formatação do menu********************/
+
+
+/*Formatação do menu*/
+
+
+/*Links não visitados*/
+
+a {
+    text-decoration: none;
+    /*A linha não fica grifada*/
+    padding: 5px 10px;
+}
+
+a:link {
+    color: white;
+}
+
+
+/*Links visitados*/
+
+a:visited {
+    color: white;
+}
+
+
+/*Links hover, é quando você passa o mouse em cima*/
+
+a:hover {
+    color: black;
+    background: yellow;
+}
+
+
+/*Links active*/
+
+a:active {
+    color: #535353;
+}
+
+
+/*Classes*/
+
+.branco {
+    color: white;
+}
+
+.data-postagem {
+    font-size: 14px;
+    border-bottom: #f4f4f4;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.img-postagem {
+    float: left;
+    margin: 0 10px 5px 0;
+}
+
+.postado {
+    border-left: 5px solid #d8d8d8;
+    padding-left: 5px;
+    display: block;
+    margin-top: 10px;
+}
